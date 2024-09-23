@@ -1,12 +1,34 @@
-# Charity_Donation-Website
-Payment Gateway Integration
+# Charity Donation Website
 
-	Create a simple website where payment gateway is integrated. There will be a simple donate button on homepage. On clicking the donate button, the user will land on the payment page where user can select the amount to be paid and the payment type, e.g.credit card, Paypal, etc.
+A simple and user-friendly website designed to facilitate online donations with integrated payment gateway functionality. Users can select the amount they wish to donate and choose from a variety of payment methods (e.g., credit card, PayPal). The website automatically generates and sends invoices via email. This project successfully integrates 3rd-party payment processing services and is hosted on a free platform.
 
-	Once the payment is done and invoice will be generated and email will be sent to the user for the payment received. The invoice will contain the amount.
+## Features
 
-	On any page / email, only basic information is needed.
+- **Donation Options**: Users can select predefined or custom donation amounts.
+- **Payment Methods**: Supports various payment gateways (e.g., credit cards, PayPal).
+- **Automated Invoices**: Invoices are sent to the donor’s email upon successful payment.
+- **Payment Integration**: Implemented using sandbox accounts for testing.
+- **User-Friendly Interface**: Clean and simple design ensuring ease of use.
+- **GitLab Version Control**: Managed version control with GitLab.
 
-	Create your own temporary / sandbox / testing accounts with 3rd party for integrations.
+## Technologies Used
 
-	Host the website at 000webhost, github.io, heroku app or any other free hosting provider. Check in code in gitlab.
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js (or any other backend technology used)
+- **Payment Gateway**: PayPal API, Stripe (or any other payment provider)
+- **Hosting**: Free hosting platform (e.g., Heroku, Netlify)
+- **Version Control**: GitLab
+
+## Setup Instructions
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed
+- GitLab account for version control
+- Sandbox accounts for payment gateways (PayPal, Stripe, etc.)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/charity-donation-website.git
